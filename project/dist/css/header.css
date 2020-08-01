@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* 头部导航部分 */
+.container-fluid {
+  background-color: #f5f9fc; }
+
+.container-fluid .container {
+  height: 40px;
+  /* background-color: skyblue; */ }
+
+.container-fluid .container a {
+  margin-right: 20px;
+  line-height: 40px;
+  color: #333333;
+  font-size: 14px; }
+
+.container-fluid .container a:hover {
+  color: red; }
+
+.container-fluid .container span {
+  margin-left: 17px;
+  line-height: 40px;
+  color: #333333;
+  font-size: 16px; }
+
+.container-fluid .container span:nth-of-type(1) {
+  margin-left: 0px; }
+
+/* <!-- 头部子导航部分 --> */
+.subnav {
+  /* background-color: rgb(65, 141, 192) ; */
+  height: 64px;
+  font-size: 16px;
+  color: #333333;
+  line-height: 64px;
+  position: relative;
+  z-index: 2;
+  /* background-color: skyblue; */ }
+
+.subnav .img img {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  left: 18px; }
+
+.subnav .list-nav {
+  position: relative;
+  top: 0px;
+  left: 195px;
+  /* background-color: pink; */
+  height: 40px;
+  width: 500px; }
+
+.subnav .list-nav h4 {
+  display: inline-block;
+  width: 130px;
+  margin-right: 10px;
+  background-color: white; }
+
+.subnav .list-nav .childlist {
+  display: inline-block;
+  width: 900px;
+  height: 200px;
+  display: none;
+  background-color: white; }
+
+.subnav .list-nav .childlist li {
+  margin-top: 20px;
+  width: 150px;
+  height: 100px;
+  float: left;
+  /* background-color: yellow; */ }
+
+.subnav .list-nav .childlist img {
+  width: 80px;
+  height: 80px; }
+
+.subnav .list-nav .childlist li span {
+  display: inline-block;
+  height: 10px;
+  font-size: 10px;
+  margin-top: 0px;
+  font-weight: 800;
+  color: red; }
+
+.subnav .list-nav .childlist li h6 {
+  display: block;
+  height: 10px;
+  margin-bottom: 10px;
+  /* background-color: pink; */
+  font-weight: 700; }
+
+.subnav .list-item {
+  float: left;
+  width: 73px; }
+
+.subnav .search {
+  width: 300px;
+  height: 35px;
+  border: 1px solid #333333;
+  margin-top: 16px; }
+
+.subnav .search input {
+  width: 250px;
+  height: 32px;
+  border: none;
+  outline: none;
+  border-right: 1px solid  #333333;
+  position: absolute;
+  top: 18px;
+  right: 48px; }
+
+.subnav .search .tip {
+  position: absolute;
+  top: 5px;
+  right: 250px; }
+
+.subnav .search .tip a {
+  font-size: 14px;
+  color: #726d6d;
+  text-indent: 10px; }
+
+.subnav .search i {
+  display: block;
+  width: 50px;
+  height: 33px;
+  font-size: 16px;
+  position: absolute;
+  top: 3px;
+  right: -20px;
+  color: #333333; }
+
+/* 尾部部分 */
+.box {
+  height: 155px;
+  background-color: #f3efef; }
+
+.box .footer_nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 600px;
+  /* background-color: pink; */ }
+
+.box .footer_nav ul li {
+  margin-right: 20px;
+  margin-top: 40px; }
+
+.box .footer_nav .txt {
+  margin-top: -60px; }
+
+.box .footer_nav p:nth-of-type(1), p:nth-of-type(3) {
+  font-size: 20px;
+  font-weight: 800; }

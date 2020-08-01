@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+li {
+    list-style-type: none;
+}
+
+.goods_box ul:after {
+    content: "";
+    display:block;
+    clear: both;
+}
+
+.goods_box ul {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.goods_item {
+    padding: 10px 6px;
+    border-right: 1px solid #b6b6b6;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.goods_pic {
+    padding: 2px 15px;
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+    /* -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 1s ease-in-out; */
+}
+
+.goods_pic:hover {
+    transform: rotate(180deg);
+    box-shadow: 2px 2px 5px #b6b6b6;
+}
+
+.goods_title {
+    font-size: 12px;
+    text-align: left;
+    color: #999;
+    padding: 13px 0 7px;
+    display: block;
+    max-width: 100%;
+    _width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.sc {
+    padding: 10px 5px;
+}
+
+.sc_btn {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #f10;
+    height: 20px;
+    background: #fc1934;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.car_tit {
+    background-color: #f5f3f3;
+    height: 55px;
+    font-size: 16px;
+    line-height: 60px;
+    margin-left: 200px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.car_tit table th {
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.car_tit table th:nth-of-type(1) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.car_tit table th:nth-of-type(2) {
+    position: absolute;
+    top: 0px;
+    left: 135px;
+}
+
+.car_tit table th:nth-of-type(3) {
+    position: absolute;
+    top: 0px;
+    left: 378px;
+}
+
+.car_tit table th:nth-of-type(4) {
+    position: absolute;
+    top: 0px;
+    left: 535px;
+}
+
+.car_tit table th:nth-of-type(5) {
+    position: absolute;
+    top: 0px;
+    left: 885px;
+}
+.car_tit table th:nth-of-type(6) {
+    position: absolute;
+    top: 0px;
+    left: 1055px;
+}
+
+.sc_right {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    height: 100px;
+}
+
+.sc_right ul li {
+    background-color: #f3f3f3;
+    margin-bottom: 10px;
+    height: 100px;
+    position: relative;
+}
+
+.sc_right ul li span {
+    line-height: 63px;
+    margin-left: 85px;
+}
+.sc_goodsBox{
+    display: block;
+   
+    margin-left: 10px;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+.sc_goodsPic {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+
+.sc_goodsPic img {
+    width: 100%;
+    height: 100%;
+}
+
+.sc_goodsTitle {
+    line-height: 90px;
+    color: black;
+    margin-left: 20px;
+    float: left;
+    width: 160px;
+}
+
+.sc_goodsPrice {
+    line-height: 90px;
+    color: black;
+    margin-left: 50px;
+    float: left;
+}
+
+.sc_goodsSum {
+    line-height: 90px;
+    color: black;
+    margin-left: 450px;
+    float: left;
+}
+
+.delete_goodsBtn {
+    background: rgb(233, 48, 88);
+    color: #fff;
+    text-align: center;
+    float: left;
+    line-height: 30px;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 1080px;
+    top: 30px;
+}
+
+.sc_goodsNum {
+    float: left;
+    line-height: 30px;
+    font-size: 10px;
+    margin-left: 5px;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+}
+
+.sc_goodsNum button {
+    width: 30px;
+    height: 30px;
+    /* background-color: #cccccc; */
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    position: absolute;
+    left: 40px;
+    top: -15px;
+    outline: none;
+    border: none;
+}
+
+.sc_goodsNum button:nth-of-type(2) {
+    position: absolute;
+    left: 100px;
+    top: -15px;
+}
+
+.submit_btn {
+    /* display: flex; */
+    width: 1200px;
+    height: 50px;
+    /* justify-content: space-between;
+    align-items: center;  */
+    /* background-color: pink; */
+}
+
+.submit_btn div:nth-child(1) {
+    float: left;
+}
+
+.submit_btn div:nth-child() {
+    float: right;
+}
+
+.submit_btn .allSum {
+    width: 300px;
+    float: right;
+}
+
+.submit_btn p {
+    display: inline-block;
+    font-size: 20px;
+    color: red;
+    margin-right: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#clearCar, #go {
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #fc1934;
+    outline: none;
+    border: none;
+    color: white;
+}

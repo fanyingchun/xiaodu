@@ -1,0 +1,10 @@
+/* 全局样式  */
+*{margin:0;padding:0;}
+li{list-style:none;}
+a,u,ins{text-decoration: none;}
+img{border:0;display:block;/* display:block; 解决图片默认三像素的空隙问题 */}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+body{font:12px "微软雅黑";}
+em,i{font-style: normal;}
+strong,b{font-weight: normal;}
+input{outline: none;}/* 取消input 聚焦时产生的蓝色框  */

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    var arr = [
+      {
+        title: "小度智能",
+        hots: [
+          {
+            id: 0,
+            title: "小度教育智能屏",
+            img: "https://product-online.cdn.bcebos.com/1591283328290530.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 4188
+          },
+          {
+            id: 1,
+            title: "小度智能屏 X8",
+            img: "https://product-online.cdn.bcebos.com/1577265082313553.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5988
+          },
+          {
+            id: 2,
+            title: "小度智能屏 Air",
+            img: "https://product-online.cdn.bcebos.com/1571388910824221.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 4188
+          },
+          {
+            id: 3,
+            title: "小度智能屏 IS",
+            img: "https://product-online.cdn.bcebos.com/1562913821283646.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5988
+          },
+          {
+            id: 4,
+            title: "小度教育智能屏",
+            img: "https://res9.vmallres.com/pimages//product/6901443381340/428_428_0927F13E5805FD0FBD065F528D4099ECC6C81DDA5B9E07FAmp.png",
+            price: 4188
+          },
+          {
+            id: 5,
+            title: "小度智能屏 IS",
+            img: "https://res2.vmallres.com/pimages//product/6901443381494/428_428_EE0830231483A4C3B1D7CAB975049B85AEEE2B6CAE79B1A7mp.png",
+            price: 5988
+          },
+          {
+            id: 6,
+            title: "小度教育智能屏",
+            img: "https://product-online.cdn.bcebos.com/1565860211296144.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 4188
+          },
+          {
+            id: 7,
+            title: "小度智能屏 X8",
+            img: "https://product-online.cdn.bcebos.com/1577265082313553.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5988
+          },
+        ]
+      },
+      {
+        title: "IOT设备",
+        hots: [
+          {
+            id: 8,
+            title: "小度智能音箱",
+            img: "https://product-online.cdn.bcebos.com/1592287636565103.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 9,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1571369265944307.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 10,
+            title: "小度智能音箱",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 11,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1573004839083259.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 12,
+            title: "小度智能音箱",
+            img: "https://product-online.cdn.bcebos.com/1592287636565103.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 13,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1571369265944307.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 14,
+            title: "小度智能音箱",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 15,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1573004839083259.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          }
+        ]
+      },
+      {
+        title: "3C数码",
+        hots: [
+          {
+            id: 16,
+            title: "小度智能周边",
+            img: "https://product-online.cdn.bcebos.com/1573129334149224.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 17,
+            title: "小度智能周边旗舰版",
+            img: "https://res1.vmallres.com/pimages//product/6901443292400/428_428_1556004658927mp.png",
+            price: 5999
+          },
+          {
+            id: 18,
+            title: "小度智能周边",
+            img: "https://product-online.cdn.bcebos.com/1573129334149224.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 19,
+            title: "小度智能周边旗舰版",
+            img: "https://res1.vmallres.com/pimages//product/6901443292400/428_428_1556004658927mp.png",
+            price: 5999
+          },
+          {
+            id: 20,
+            title: "小度智能音箱",
+            img: "https://product-online.cdn.bcebos.com/1592287636565103.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 21,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1571369265944307.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 22,
+            title: "小度智能音箱",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 23,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1573004839083259.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          }
+        ]
+      },
+      {
+        title: "家居百货",
+        hots: [
+          {
+            id: 24,
+            title: "限时秒杀智能屏",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 25,
+            title: "限时秒杀智能音箱",
+            img: "https://product-online.cdn.bcebos.com/20200114-613d0bcc-9fba-4dd9-8a87-62123218ef35.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 26,
+            title: "限时秒杀智能屏",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 27,
+            title: "限时秒杀智能音箱",
+            img: "https://res1.vmallres.com/pimages//product/6901443292400/428_428_1556004658927mp.png",
+            price: 5999
+          },
+          {
+            id: 28,
+            title: "小度智能音箱",
+            img: "https://product-online.cdn.bcebos.com/1592287636565103.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 29,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1571369265944307.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 30,
+            title: "小度智能音箱",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 31,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1573004839083259.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          }
+        ]
+      }, 
+      {
+        title: "家居电器",
+        hots: [
+          {
+            id: 32,
+            title: "限时秒杀智能屏",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 33,
+            title: "限时秒杀智能音箱",
+            img: "https://res1.vmallres.com/pimages//product/6901443292400/428_428_1556004658927mp.png",
+            price: 5999
+          },
+          {
+            id: 34,
+            title: "限时秒杀智能屏",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 35,
+            title: "限时秒杀智能音箱",
+            img: "https://res1.vmallres.com/pimages//product/6901443292400/428_428_1556004658927mp.png",
+            price: 5999
+          },
+          {
+            id: 36,
+            title: "小度智能音箱",
+            img: "https://product-online.cdn.bcebos.com/1592287636565103.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 37,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1571369265944307.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 38,
+            title: "小度智能音箱",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 39,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1573004839083259.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          }
+        ]
+      },
+      {
+        title: "母婴玩具",
+        hots: [
+          {
+            id: 40,
+            title: "限时秒杀智能屏",
+            img: "https://product-online.cdn.bcebos.com/20200103-d7930421-8b2e-4352-b1de-bb91b368ee59.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 41,
+            title: "限时秒杀智能音箱",
+            img: "https://product-online.cdn.bcebos.com/20200103-55ee46cb-9c61-43c4-aee0-abf515bfedd6.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 42,
+            title: "限时秒杀智能屏",
+            img: "https://product-online.cdn.bcebos.com/1578386161833207.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 43,
+            title: "限时秒杀智能音箱",
+            img: "https://res1.vmallres.com/pimages//product/6901443292400/428_428_1556004658927mp.png",
+            price: 5999
+          },
+          {
+            id: 44,
+            title: "小度智能音箱",
+            img: "https://product-online.cdn.bcebos.com/1592287636565103.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 45,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1571369265944307.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 46,
+            title: "小度智能音箱",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 47,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1573004839083259.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          }
+        ]
+      },
+      {
+        title: "箱包饰品",
+        hots: [
+          {
+            id: 48,
+            title: "限时秒杀智能屏",
+            img: "https://product-online.cdn.bcebos.com/20200110-38002152-4750-43e8-8caa-8992879e7830.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 49,
+            title: "限时秒杀智能音箱",
+            img: "https://product-online.cdn.bcebos.com/20200516-1d1d4ed2-b41e-46fa-8397-b3b03f3d40c9.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 50,
+            title: "限时秒杀智能屏",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 51,
+            title: "限时秒杀智能音箱",
+            img: "https://product-online.cdn.bcebos.com/1575367917593833.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 52,
+            title: "小度智能音箱",
+            img: "https://product-online.cdn.bcebos.com/1592287636565103.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 53,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1571369265944307.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 54,
+            title: "小度智能音箱",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 55,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1573004839083259.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          }
+        ]
+      },
+      {
+        title: "美妆个护",
+        hots: [
+          {
+            id: 56,
+            title: "限时秒杀智能屏",
+            img: "https://product-online.cdn.bcebos.com/20200415-9830b56a-e9b7-468b-a0df-2f64b10606b5.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 57,
+            title: "限时秒杀智能音箱",
+            img: "https://product-online.cdn.bcebos.com/1575281704535653.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 58,
+            title: "限时秒杀智能屏",
+            img: "https://product-online.cdn.bcebos.com/1575281077775019.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 59,
+            title: "限时秒杀智能音箱",
+            img: "https://product-online.cdn.bcebos.com/1575280730537243.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 60,
+            title: "小度智能音箱",
+            img: "https://product-online.cdn.bcebos.com/1592287636565103.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 8999
+          },
+          {
+            id: 61,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1571369265944307.jpg?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          },
+          {
+            id: 62,
+            title: "小度智能音箱",
+            img: "https://res1.vmallres.com/pimages//product/6901443297726/428_428_1555752034219mp.png",
+            price: 8999
+          },
+          {
+            id: 63,
+            title: "小度智能音箱旗舰版",
+            img: "https://product-online.cdn.bcebos.com/1573004839083259.png?x-bce-process=image/quality,q_80/format,f_auto/interlace,i_progressive",
+            price: 5999
+          }
+        ]
+      }
+
+
+
+
+
+    ];
+
+    //一定要先去写数据结构，在数据结构中，如果你写错，能报错
+    // var str = JSON.stringify(arr);
+    var str = JSON.stringify(arr);
+    document.write(str);
+  </script>
+</head>
+<body>
+
+</body>
+</html>

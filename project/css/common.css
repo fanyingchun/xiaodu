@@ -1,0 +1,6 @@
+ /* css common */
+ .l{float: left;}
+ .r{float: right;}
+ .clear{content: ""; display: block; clear: both;}
+ .container{width: 1205px; margin: 0 auto; position: relative;}
+ .container-fluid{position: relative;}
